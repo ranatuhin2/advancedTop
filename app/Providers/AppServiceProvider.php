@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->configRateLimiter(10,10);
-        
+
     }
 
 
@@ -39,7 +39,7 @@ class AppServiceProvider extends ServiceProvider
 
         RateLimiter::increment($key,$decaySeconds);
 
-        echo RateLimiter::increment($key, $decaySeconds);
+        RateLimiter::increment($key, $decaySeconds);
         // RateLimiter::clear($key);
     }
 }
