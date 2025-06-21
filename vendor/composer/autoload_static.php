@@ -336,8 +336,8 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -377,8 +377,8 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri-interfaces',
-            1 => __DIR__ . '/..' . '/league/uri',
+            0 => __DIR__ . '/..' . '/league/uri',
+            1 => __DIR__ . '/..' . '/league/uri-interfaces',
         ),
         'League\\MimeTypeDetection\\' => 
         array (
@@ -517,6 +517,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
 
     public static $classMap = array (
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -1874,6 +1875,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Illuminate\\Contracts\\Support\\CanBeEscapedWhenCastToString' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Support/CanBeEscapedWhenCastToString.php',
         'Illuminate\\Contracts\\Support\\DeferrableProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Support/DeferrableProvider.php',
         'Illuminate\\Contracts\\Support\\DeferringDisplayableValue' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Support/DeferringDisplayableValue.php',
+        'Illuminate\\Contracts\\Support\\HasOnceHash' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Support/HasOnceHash.php',
         'Illuminate\\Contracts\\Support\\Htmlable' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Support/Htmlable.php',
         'Illuminate\\Contracts\\Support\\Jsonable' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Support/Jsonable.php',
         'Illuminate\\Contracts\\Support\\MessageBag' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Contracts/Support/MessageBag.php',
@@ -1959,6 +1961,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Illuminate\\Database\\Eloquent\\Attributes\\ObservedBy' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Attributes/ObservedBy.php',
         'Illuminate\\Database\\Eloquent\\Attributes\\Scope' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Attributes/Scope.php',
         'Illuminate\\Database\\Eloquent\\Attributes\\ScopedBy' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Attributes/ScopedBy.php',
+        'Illuminate\\Database\\Eloquent\\Attributes\\UseEloquentBuilder' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Attributes/UseEloquentBuilder.php',
         'Illuminate\\Database\\Eloquent\\Attributes\\UseFactory' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Attributes/UseFactory.php',
         'Illuminate\\Database\\Eloquent\\Attributes\\UsePolicy' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Attributes/UsePolicy.php',
         'Illuminate\\Database\\Eloquent\\BroadcastableModelEventOccurred' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/BroadcastableModelEventOccurred.php',
@@ -1972,6 +1975,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Illuminate\\Database\\Eloquent\\Casts\\AsEncryptedCollection' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Casts/AsEncryptedCollection.php',
         'Illuminate\\Database\\Eloquent\\Casts\\AsEnumArrayObject' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Casts/AsEnumArrayObject.php',
         'Illuminate\\Database\\Eloquent\\Casts\\AsEnumCollection' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Casts/AsEnumCollection.php',
+        'Illuminate\\Database\\Eloquent\\Casts\\AsFluent' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Casts/AsFluent.php',
         'Illuminate\\Database\\Eloquent\\Casts\\AsHtmlString' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Casts/AsHtmlString.php',
         'Illuminate\\Database\\Eloquent\\Casts\\AsStringable' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Casts/AsStringable.php',
         'Illuminate\\Database\\Eloquent\\Casts\\AsUri' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Database/Eloquent/Casts/AsUri.php',
@@ -2532,6 +2536,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Illuminate\\Queue\\LuaScripts' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/LuaScripts.php',
         'Illuminate\\Queue\\ManuallyFailedException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/ManuallyFailedException.php',
         'Illuminate\\Queue\\MaxAttemptsExceededException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/MaxAttemptsExceededException.php',
+        'Illuminate\\Queue\\Middleware\\FailOnException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/Middleware/FailOnException.php',
         'Illuminate\\Queue\\Middleware\\RateLimited' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/Middleware/RateLimited.php',
         'Illuminate\\Queue\\Middleware\\RateLimitedWithRedis' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/Middleware/RateLimitedWithRedis.php',
         'Illuminate\\Queue\\Middleware\\Skip' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/Middleware/Skip.php',
@@ -6603,6 +6608,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'Termwind\\ValueObjects\\Style' => __DIR__ . '/..' . '/nunomaduro/termwind/src/ValueObjects/Style.php',
         'Termwind\\ValueObjects\\Styles' => __DIR__ . '/..' . '/nunomaduro/termwind/src/ValueObjects/Styles.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
+        'Tests\\Feature\\LoginTest' => __DIR__ . '/../..' . '/tests/Feature/LoginTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
